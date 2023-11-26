@@ -12,6 +12,7 @@ import { ParentComponent } from './parent/parent.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabComponent } from './component/tab/tab.component';
+import { TestComponent } from './test/test.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { TabComponent } from './component/tab/tab.component';
     LoginComponent,
     ButtonComponent,
     ParentComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
